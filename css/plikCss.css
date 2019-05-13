@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+.landing-image{
+  background-image: url(https://source.unsplash.com/De8wMYoSSBc);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 35vw;
+  z-index: 100;
+  font-size: 1em;
+}
+
+.header{
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+.header h2{
+  border-left: dotted 5px #fff;
+  border-right: dotted 5px #fff;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .rodzic{
+    display: flex;
+    flex-direction: column;
+  }
+  .lewa{
+    height: 50vh;
+  }
+  .landing-image{
+    height: 50vh;
+  }
+
+}
